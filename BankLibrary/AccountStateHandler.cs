@@ -24,10 +24,10 @@ namespace BankLibrary
         }
     }
 
-    public abstract class Account : IAccount
-    {
-        //событие при выводе денег
-        protected internal event AccountStateHandler Withdrawed;
-        //событие при добавлении на счет
-    }
+    //public abstract class Account : IAccount
+    //{
+    //    //событие при выводе денег
+    //    protected internal event AccountStateHandler Withdrawed;
+    //    //событие при добавлении на счет
+    //}
 }
